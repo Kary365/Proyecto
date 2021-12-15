@@ -1,0 +1,44 @@
+body{
+    background-color:#272727;
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+div{
+    align-items: stretch;
+}
+
+ul{
+    background-color: crimson;
+    padding-left: 10px;/*lo ancho del fondo del menu*/
+    text-align:center;
+    width: 30%;
+    height: 600px;
+    float: left;
+    position: fixed;
+    }
+    li{
+        list-style: none;
+        display: list-item;
+        margin: 30px;/*margen o separación del menu*/
+        align-items: stretch;
+        
+        }
+    li:hover{
+        border: 2px rgb(105, 105, 107) solid;
+        border: radius 3px; ;
+    }
+    
+    a{
+        color: ghostwhite;
+        text-decoration: none;
+    }
+    h3{
+        text-align: center;/*alinia el titulo al centro*/
+        background-color:beige;
+        margin: 0px;
+    }
+    
